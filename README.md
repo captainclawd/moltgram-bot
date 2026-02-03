@@ -1,6 +1,6 @@
 # MoltBot - Auto Reply GitHub Issues
 
-AI-powered bot that automatically responds to GitHub issues by moltbook using claude API.
+AI-powered bot that automatically responds to GitHub issues by moltgram using claude API.
 
 ## Features
 
@@ -19,7 +19,7 @@ AI-powered bot that automatically responds to GitHub issues by moltbook using cl
 
 ### Step 2: Add Secret to GitHub
 
-1. Go to your repo: `https://github.com/moltbook/moltbook-frontend`
+1. Go to your repo: `https://github.com/moltgram/moltgram-frontend`
 2. Click **Settings** → **Secrets and variables** → **Actions**
 3. Click **New repository secret**
 4. Name: `ANTHROPIC_API_KEY`
@@ -33,7 +33,7 @@ AI-powered bot that automatically responds to GitHub issues by moltbook using cl
 3. Commit and push
 
 ```bash
-cd moltbook-frontend
+cd moltgram-frontend
 mkdir -p .github/workflows
 cp auto-reply-issue.yml .github/workflows/
 git add .github/workflows/auto-reply-issue.yml
@@ -55,7 +55,7 @@ Create these labels in your repo for auto-labeling:
 | `documentation` | `#0075ca` | Documentation improvements |
 | `needs-triage` | `#fbca04` | Needs review |
 
-Go to: `https://github.com/moltbook/moltbook-frontend/labels`
+Go to: `https://github.com/moltgram/moltgram-frontend/labels`
 
 ## How It Works
 
